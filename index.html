@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- style  -->
+    
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootStrap Icon  -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-light" id ="top_nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo1.png"  alt="" class="img-fluid" style="height:50px;
+             width:80px;">
+             <h3 class="bg-warning text-white"> Pet Company</h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item text-white" style="font-size:20px; color:rgb(255, 255, 255); padding-left: 25px;">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item text-white" style="font-size:20px; color:rgb(255, 195, 195); padding-left: 25px;">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item text-white" style="font-size:20px; color:rgb(207, 195, 195); padding-left: 25px;">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item text-white" style="font-size:20px; color:rgb(255, 255, 255); padding-left: 25px;">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" id="searchfrom">
+              <input class="form-control me-2" type="search" placeholder="Search...." aria-label="Search" id="searchBox">
+              <button class="btn btn-outline-success" type="submit" id="searchButton"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--- container-fluid-->
+      <div class="container-fluid">
+        <div class="row justify-content-center" id="banner">
+          <div class="col-md-6" id="bannertext">
+            <h1 >A dog is the only thing on earth that loves you more than you love yourself.</h1>
+            <p>     Dogs make for the best friends, and it’s only right that we celebrate them for all the joy and love they’ve given us. Whether labeled on a dog bandana or a paw print poster, you’ll need the perfect dog quote to accompany your piece. 
+              <br>
+              <br>
+              That might be with a custom photo book about your dog, a social media post for National Dog Day, or with a personalized pet gift picked out just for your furry friend. Whatever
+            </p>
+            <button type="button" class="btn" id="banner-btn-1"> Contact Us</button>
+            <button type="button" class="btn" id="banner-btn-2">Our Service</button>
+          </div>
+            <div class="col-md-4">
+         <br>
+            <img src="dog.jpg" alt="" class="img-fluid" id="bannerimg" style="cursor: pointer;">
+            <br>
+            <br>
+            <img src="dog1.jpg" alt="" class="img-fluid" id="bannerimg" style="cursor: pointer;">
+          </div>
+        </div>
+
+       <!-- service -->
+       <div class="row justify-content-center">
+        <div class="col-md-5 col-11 " id="service-text">
+          <h1>When a man’s best friend is his dog, that dog has a problem.</h1>
+          <p>Dog lovers know something that no one else does: there’s no purer form of love than the kind you get from your four-legged family. Here is a collection of adorable, inspirational quotes about dogs that celebrate our love for all things canine.</p>
+          <button type="button" class="btn" id="service-btn">Our Service </button>
+        </div>
+        <div class="col-md-5" id="service-img">
+          <br>
+          <img src="dog4.jpg" alt="" class="img-fluid">
+        </div>
+       </div>
+       
+       <!-- counter -->
+        <div class="row justify-content-center " id="counter-section"> 
+          <div class="col-md-3 text-center text-white mt-5 mb-3" >
+            <i class="bi bi-heart-pulse-fill counter-icon"></i>
+            <h3>
+              +34567 <br>
+              Happy Clints
+            </h3>
+          </div>
+          <div class="col-md-3 text-center text-white mt-5 mb-3">
+            <i class="bi bi-buildings counter-icon"></i>
+            <h3>
+              +45 <br>
+              Department
+            </h3>
+          </div>
+          <div class="col-md-3 text-center text-white mt-5 mb-3">
+            <i class="bi bi-eyedropper  counter-icon"></i>
+            <h3>
+              +23242525 <br>
+              Vaccinations
+            </h3>
+          </div>
+        </div>       
+       <!-- blog -->
+          <div class="row justify-content-center" id="blog">
+         <div class="col-12 text-center">
+              <h1 id="blog-title">Recent Posts </h1>
+              <p id="blog-p">A dog will make eye contact. A cat will, too, but a cat's eyes don't even look entirely warm-blooded to me, whereas a dog's eyes look human except less guarded. A dog will look at you as if to say, 'What do you want me to do for you?</p>
+         </div>
+         <div class="col-md-3 col-11 mt-4">
+              <img src="dog5.jpeg" alt="">
+                <div class="articale-deteil">
+                  <h4 class="articale-title">Dogs are my favorite kind of people.</h4>
+                  <p class="articale-date"> FEBRUARY 09 2021</p>
+                  <p class="articale-desc">Dogs do speak, but only to those who know how to listen." —Orhan Pamuk
+                    <br> I know, I learned from dogs.Happiness is a warm puppy." —Charles Schulz
+
+                  </p>
+                  <p> <a href="#" class="articale-link" > Read More+</a> </p>
+                  
+                </div>
+
+         </div>
+         <div class="col-md-3 col-11 mt-4">
+          <img src="dog6.jpeg" alt="">
+          <div class="articale-deteil">
+            <h4 class="articale-title">Rumor on the street is that I'm a very good boy/girl.
+            </h4>
+            <p class="articale-date"> JANUARY 09 2021</p>
+            <p class="articale-desc">No matter how little money and how few possessions you own, having a dog makes you rich. — Louis Sabin
+            </p>
+            <p> <a href="#"  class="articale-link"> Read More+</a> </p>
+            
+          </div>
+         </div>
+         <div class="col-md-3 col-11 mt-4">
+          <img src="dog7.jpeg" alt="">
+          <div class="articale-deteil">
+            <h4 class="articale-title">Dog hair is my go-to accessory.
+            </h4>
+            <p class="articale-date"> FEBRUARY 08 2020</p>
+            <p class="articale-desc">The world would be a nicer place if everyone had the ability to love as unconditionally as a dog.―M.K.Clinton</p>
+            <p> <a href="#"   class="articale-link"> Read More+</a> </p>
+            
+          </div>
+         </div>
+          </div>
+         <!-- footer -->
+         <div class="row justify-content-center text-white" id="footer">
+          <div class="col-md-3">
+            <h4>About</h4>
+            <a href="#">History </a><br>
+            <a href="#">Our Team</a><br>
+            <a href="#"> Brand Guidelines</a><br>
+            <a href="#"> Terms&Condition</a><br>
+            <a href="#">Privacy Policy</a><br>
+          </div>
+          <div class="col-md-2">
+            <h4>Services</h4>
+            <a href="#">How to Order </a><br>
+            <a href="#">Our Breeds</a><br>
+            <a href="#">Order Status</a><br>
+            <a href="#">Promo</a><br>
+            <a href="#">Payment Method</a><br>
+          </div>
+          <div class="col-md-4 text-end">
+        <h4>Title Here</h4>
+        <p>600 Million Stray Dogs Need you.</p>
+        <form action="" id="footer-from">
+          <input type="text" id="footer-search-box">
+          <button type="submit" id="footer-search-sumbit"><i class="bi bi-cursor-fill"></i></button>
+        </form>
+        <i class="bi bi-instagram social-icon"></i>
+        <i class="bi bi-facebook social-icon"></i>
+        <i class="bi bi-twitter social-icon"></i>
+        <i class="bi bi-whatsapp social-icon"></i>
+      </div>
+         </div>
+        <!-- container fluid end  -->
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
